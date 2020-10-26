@@ -51,8 +51,3 @@ spec:
               secretKeyRef:
                 name: csmp-secrets
                 key: db_pswd
-          - name: https_port
-            valueFrom:
-              secretKeyRef:
-                name: csmp-secrets
-                key: https_port
